@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-17 13:23:03.425052",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname"
+ ],
+ "fields": [
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "label": "firstname"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "lastname"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-17 13:29:36.936610",
+ "modified_by": "Administrator",
+ "module": "airline",
+ "name": "fullname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

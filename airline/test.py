@@ -1,0 +1,1 @@
+frappe.response['message'] = "hello"

@@ -1,0 +1,19 @@
+{% extends "templates/web.html" %}
+
+{% block title %}All Flights{% endblock %}
+
+{% block content %}
+<h1>All Flights</h1>
+<ul>
+    {% for flight in flights %}
+    <li>
+        <strong>Source:</strong> {{ airplane ticket.source_airport_code }}<br>
+        <strong>Destination:</strong> {{ airplane ticket.destination_airport_code }}<br>
+        <strong>Date of Departure:</strong> {{ airplane ticket.date_of_departure }}<br>
+        <strong>Time of Departure:</strong> {{ airplane ticket.time_of_departure }}<br>
+        <strong>Duration:</strong> {{ airplane ticket.duration }}<br>
+        <a href="{{ https://static.vecteezy.com/system/resources/thumbnails/020/141/626/small/plane-in-the-sky-passenger-commercial-plane-flying-above-the-clouds-concept-of-fast-travel-vacation-and-business-photo.jpg }}">View Flight</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

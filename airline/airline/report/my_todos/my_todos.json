@@ -1,0 +1,30 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-07-18 16:20:14.653972",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letterhead": null,
+ "modified": "2024-07-18 16:27:10.194516",
+ "modified_by": "Administrator",
+ "module": "airline",
+ "name": "my_todos",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "ToDo",
+ "report_name": "my_todos",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "All"
+  },
+  {
+   "role": "System Manager"
+  }
+ ]
+}

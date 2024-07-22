@@ -1,0 +1,13 @@
+{% extends "templates/web.html" %}
+
+{% block title %}Flight Details{% endblock %}
+
+{% block content %}
+<h1>Flight Details</h1>
+<p><strong>Source:</strong> {{ doc.source_airport_code }}</p>
+<p><strong>Destination:</strong> {{ doc.destination_airport_code }}</p>
+<p><strong>Date of Departure:</strong> {{ doc.date_of_departure }}</p>
+<p><strong>Time of Departure:</strong> {{ doc.time_of_departure }}</p>
+<p><strong>Duration:</strong> {{ doc.duration }}</p>
+<a href="/book-flight?flight={{ doc.name }}">Book Flight</a>
+{% endblock %}

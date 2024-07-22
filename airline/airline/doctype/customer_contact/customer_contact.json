@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-17 17:29:36.457465",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_contact_name",
+  "primary_phone",
+  "phone_number"
+ ],
+ "fields": [
+  {
+   "default": "1234567890",
+   "fieldname": "primary_phone",
+   "fieldtype": "Select",
+   "label": "Primary Phone",
+   "options": "1234567890\n9876543210"
+  },
+  {
+   "fieldname": "customer_contact_name",
+   "fieldtype": "Data",
+   "label": "Customer Contact Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Table",
+   "label": "Phone Number",
+   "options": "Customer Phone"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-18 11:16:15.324335",
+ "modified_by": "Administrator",
+ "module": "airline",
+ "name": "customer contact",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
